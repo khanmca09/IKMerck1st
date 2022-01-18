@@ -1,1 +1,1 @@
-web:    java -cp target/classes:target/dependency/* IKMerck1
+web:   java -cp target/classes:target/dependency/* IKMerck1

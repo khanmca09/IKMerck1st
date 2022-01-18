@@ -9,7 +9,7 @@ import org.eclipse.jetty.servlet.ServletHolder;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 
-public class IKMerck1 extends HttpServlet {
+public class IKMerck1 extends HttpServlet { 
  
     private static final long serialVersionUID = 1L;
  
@@ -28,7 +28,7 @@ public class IKMerck1 extends HttpServlet {
  
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().print("MercFirsDemo Get API !!!!!!!!!!!!!!!");
+        resp.getWriter().print("changed MercFirsDemo Get API !!!!!!!!!!!!!!!");
  
     }
  
